@@ -227,47 +227,83 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectDetails = {
         'bcg': {
             title: 'BCG Strategy Consulting Simulation',
-            desc: '<ul><li>Conducted comprehensive profitability analysis for a telecom client.</li><li>Identified cost-saving opportunities and presented strategic recommendations.</li><li>Analyzed revenue streams in a highly competitive market.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Conducted comprehensive profitability analysis for a telecom client.</li>
+                <li>Identified cost-saving opportunities and presented strategic recommendations.</li>
+                <li>Analyzed revenue streams in a highly competitive market.</li>
+            </ul>`,
             tags: ['Profitability Analysis', 'Telecom Strategy', 'Excel', 'Consulting Frameworks']
         },
         'powerbi': {
             title: 'Power BI Text Analysis',
-            desc: '<ul><li>Developed an advanced emotional analytics dashboard using Power BI.</li><li>Extracted insights from large datasets to visualize sentiment and track emotional trends.</li><li>Interpreted user feedback for data-driven product improvements.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Developed an advanced emotional analytics dashboard using Power BI.</li>
+                <li>Extracted insights from large datasets to visualize sentiment and track emotional trends.</li>
+                <li>Interpreted user feedback for data-driven product improvements.</li>
+            </ul>`,
             tags: ['Sentiment Visualization', 'Emotional Analytics', 'Power BI', 'DAX']
         },
         'tata': {
             title: 'TATA Data Visualization Simulation',
-            desc: '<ul><li>Built interactive executive dashboards and established a client questioning framework.</li><li>Modeled business scenarios to provide clarity to stakeholders.</li><li>Facilitated high-level strategic decision-making.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Built interactive executive dashboards and established a client questioning framework.</li>
+                <li>Modeled business scenarios to provide clarity to stakeholders.</li>
+                <li>Facilitated high-level strategic decision-making.</li>
+            </ul>`,
             tags: ['Executive Dashboards', 'Framework Design', 'Tableau', 'Data Storytelling']
         },
         'commercial-pm': {
             title: 'Commercial Project Manager Simulation (Forage)',
-            desc: '<ul><li>Forecasted project cost at $112M vs $100M (+12%) using EAC based on current performance and cost trends.</li><li>Evaluated project performance using CPI 0.89, SPI 1.03, and risk closure rate of 62% across key workstreams.</li><li>Identified major cost overruns and proposed corrective actions to improve budget control.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Forecasted project cost at $112M vs $100M (+12%) using EAC based on current performance and cost trends.</li>
+                <li>Evaluated project performance using CPI 0.89, SPI 1.03, and risk closure rate of 62% across key workstreams.</li>
+                <li>Identified major cost overruns and proposed corrective actions to improve budget control.</li>
+            </ul>`,
             tags: ['Cost Forecasting', 'EAC Analysis', 'Budget Control']
         },
         'ey-risk': {
             title: 'EY Technology Risk Simulation (Forage)',
-            desc: '<ul><li>Identified IT risks across business processes impacting system reliability and security.</li><li>Developed 15+ audit questions to evaluate internal controls and assess risk mitigation.</li><li>Assessed control effectiveness to support compliance and audit readiness.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Identified IT risks across business processes impacting system reliability and security.</li>
+                <li>Developed 15+ audit questions to evaluate internal controls and assess risk mitigation.</li>
+                <li>Assessed control effectiveness to support compliance and audit readiness.</li>
+            </ul>`,
             tags: ['IT Audit', 'Compliance', 'Risk Mitigation']
         },
         'ge-aerospace': {
             title: 'GE Aerospace Simulation (Forage)',
-            desc: '<ul><li>Calculated fixture load capacity using a 1.5 safety factor based on engineering specifications.</li><li>Interpreted technical drawings to determine component dimensions and weight distribution.</li><li>Supported safe fixture design for efficient engine disassembly and workflow optimization.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Calculated fixture load capacity using a 1.5 safety factor based on engineering specifications.</li>
+                <li>Interpreted technical drawings to determine component dimensions and weight distribution.</li>
+                <li>Supported safe fixture design for efficient engine disassembly and workflow optimization.</li>
+            </ul>`,
             tags: ['Load Analysis', 'Engineering Data', 'Workflow Optimization']
         },
         'product-pm': {
             title: 'Product Management Simulation (Forage)',
-            desc: '<ul><li>Analyzed key KPIs including ARPU, retention, and session duration to evaluate user engagement.</li><li>Segmented users based on behavioral patterns to identify high-value and at-risk groups.</li><li>Generated actionable insights to improve product features and enhance user experience.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Analyzed key KPIs including ARPU, retention, and session duration to evaluate user engagement.</li>
+                <li>Segmented users based on behavioral patterns to identify high-value and at-risk groups.</li>
+                <li>Generated actionable insights to improve product features and enhance user experience.</li>
+            </ul>`,
             tags: ['Retention Analysis', 'User Insights', 'KPIs']
         },
         'general-pm': {
             title: 'Project Management Simulation (Forage)',
-            desc: '<ul><li>Designed 6 KPIs to track project progress, budget variance, and risk performance.</li><li>Built an interactive dashboard for real-time monitoring of construction milestones.</li><li>Analyzed project data trends to support better decision-making.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Designed 6 KPIs to track project progress, budget variance, and risk performance.</li>
+                <li>Built an interactive dashboard for real-time monitoring of construction milestones.</li>
+                <li>Analyzed project data trends to support better decision-making.</li>
+            </ul>`,
             tags: ['KPI Dashboard', 'Risk Tracking', 'Decision Making']
         },
         'siemens': {
             title: 'Siemens Mobility Simulation (Forage)',
-            desc: '<ul><li>Designed 6 KPIs aligned with construction progress and operational efficiency metrics.</li><li>Analyzed project data including +6 miles electrification and +4 miles track installation.</li><li>Evaluated performance trends to support resource optimization and strategic planning.</li></ul>',
+            desc: `<ul style="text-align: left; padding-left: 1.5rem;">
+                <li>Designed 6 KPIs aligned with construction progress and operational efficiency metrics.</li>
+                <li>Analyzed project data including +6 miles electrification and +4 miles track installation.</li>
+                <li>Evaluated performance trends to support resource optimization and strategic planning.</li>
+            </ul>`,
             tags: ['Infrastructure', 'Data Analysis', 'Efficiency']
         }
     };
